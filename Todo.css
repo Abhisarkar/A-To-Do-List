@@ -1,0 +1,120 @@
+*{
+	margin : 0px;/* Ekdom top e jaaoar jonno */
+}
+
+.header{
+	background :#9ae0d0;
+	text-align : center;/* button tare ekdom middle e kortase na*/
+	height : 70px;
+	width : 50%;
+	margin-left : 340px;
+	margin-top : 50px;
+	border : 0px;
+	border-radius : 10px;
+	box-shadow : 0px 3px 2px #517755;
+	
+		
+}
+.header:focus{
+	outline:none;
+}
+#myInput1{
+	/*problem 1 : coloring "enter an activity.."*/
+	display : inline-block;
+	margin-top : 17px;
+	background :rgba(237, 255, 254,0.7);
+	text-indent : 15px;
+	border : none;
+	border-radius : 3px;
+	padding-right : 20px;/*lekha ta pura right line e laiga jaay na olpo space raikha dei*/
+	width : 520px;
+	height : 40px;
+	font-size : 20px;
+	font-family : courier;	
+	color : #0e0f0f;/*activity ta r color*/
+}
+
+#Add{
+	cursor : pointer;
+	display : inline-block;
+	margin-left : -5px;/*duita element button and input ke jura lagaite */
+	margin-bottom : 27px;
+	margin-top : 17px;
+	height :40px;
+	width : 100px;
+	border : none;
+	border-top-right-radius : 10px;
+	border-bottom-right-radius : 10px;
+	font-family : courier;
+	box-shadow : 2px 2px 2px #244743;
+	color : white;
+	font-size : 20px;
+	background : rgba(77, 160, 152,0.8);
+	
+}
+
+
+
+
+ul li{
+	cursor : pointer; /*hand comes on hovering*/
+	position : relative;
+	background :rgba(66, 147, 100,0.8);
+	list-style-type : none;
+	margin : auto;
+	margin-top : 6px;
+	margin-left : 340px;
+	padding : 10px;
+	height : 33px;
+	width : 580px;
+	border-radius : 5px;
+	font-size : 25px;
+	text-indent : 20px;
+	color : white;
+	font-family :tahoma;
+	box-shadow : 2px 3px 2px #244743;
+	
+}
+input:focus {/*gets rid of the blue line while ckicking on the html element*/
+    outline:none;
+}
+
+button:focus{
+	
+	outline : none;
+}
+
+ul li.checked{/* working crssing the item. */
+	
+	background : #818791;
+	color : #fff;
+	text-decoration : line-through;
+	
+}
+
+.closeclass{/*close button -- working*/
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	  padding: 12px 16px 12px 16px;
+	  height : 28px;
+	  width : 50px;
+}
+.closeclass:hover{
+	
+	background : rgba(18, 32, 53,0.7);/*close button*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
